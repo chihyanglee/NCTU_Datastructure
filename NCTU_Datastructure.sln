@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PolynomialArray", "Polynomi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelectionSort", "SelectionSort\SelectionSort.vcxproj", "{E163B614-DE15-4B4A-BE33-52AD1DD60114}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearch", "BinarySearch\BinarySearch.vcxproj", "{CCA0BBFD-48C2-41CA-BF78-AD2AE91E33E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{E163B614-DE15-4B4A-BE33-52AD1DD60114}.Release|x64.Build.0 = Release|x64
 		{E163B614-DE15-4B4A-BE33-52AD1DD60114}.Release|x86.ActiveCfg = Release|Win32
 		{E163B614-DE15-4B4A-BE33-52AD1DD60114}.Release|x86.Build.0 = Release|Win32
+		{CCA0BBFD-48C2-41CA-BF78-AD2AE91E33E1}.Debug|x64.ActiveCfg = Debug|x64
+		{CCA0BBFD-48C2-41CA-BF78-AD2AE91E33E1}.Debug|x64.Build.0 = Debug|x64
+		{CCA0BBFD-48C2-41CA-BF78-AD2AE91E33E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCA0BBFD-48C2-41CA-BF78-AD2AE91E33E1}.Debug|x86.Build.0 = Debug|Win32
+		{CCA0BBFD-48C2-41CA-BF78-AD2AE91E33E1}.Release|x64.ActiveCfg = Release|x64
+		{CCA0BBFD-48C2-41CA-BF78-AD2AE91E33E1}.Release|x64.Build.0 = Release|x64
+		{CCA0BBFD-48C2-41CA-BF78-AD2AE91E33E1}.Release|x86.ActiveCfg = Release|Win32
+		{CCA0BBFD-48C2-41CA-BF78-AD2AE91E33E1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
