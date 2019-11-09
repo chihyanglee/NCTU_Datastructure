@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="perm.cpp">
+    <ClCompile Include="ForAndRecursive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="KMP.cpp">
+    <ClCompile Include="FindNLargestNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
