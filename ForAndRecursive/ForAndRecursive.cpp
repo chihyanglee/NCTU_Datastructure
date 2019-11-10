@@ -7,11 +7,16 @@ int multiply_recursive(const int& a, const int& b) {
         return a;
     return multiply_recursive(a, b - 1) + a;
 }
+int factor_recursive(int n) {
+    if (n == 1) return 1;
+    return n * factor_recursive(n - 1);
+}
 int main()
 {
     int a = 3;
     int b = 5;
     std::cout << "3 * 5 = " << multiply_recursive(a, b) << std::endl;
+    std::cout << "3! = " << factor_recursive(3) << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
