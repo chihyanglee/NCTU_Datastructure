@@ -3,6 +3,7 @@
 #include <iostream>
 #include <stack>
 #include <vector>
+#include <iomanip> 
 using namespace std;
 //const int MazeWidth = 4;
 //const int MazeHeight = 4;
@@ -105,7 +106,7 @@ void solveMaze(vector<vector<int>> maze) {
             // mark footage
             footage[row_index + direction[d].vert - 1][column_index + direction[d].horiz - 1] = 1;
             s.push(next_move);
-            if (next_move.column == MazeWidth && next_move.row == MazeHeight) {
+            if (next_move.row == MazeHeight && next_move.column == MazeWidth) {
                 // cout << "path found!" << endl;
                 break;
             }
@@ -124,10 +125,13 @@ void solveMaze(vector<vector<int>> maze) {
             step.push(s.top());
             s.pop();
         }
+        cout << "[row][col]" << endl;
+        const int width = 3;
         while (!step.empty()) {
-            cout << "[" << step.top().row - 1 << "][" << step.top().column - 1 << "]" << endl;
+            cout << "[" << setw(width) << step.top().row - 1 << "][" << setw(width) << step.top().column - 1 << "]" << endl;
             step.pop();
         }
+        cout << "[" << setw(width) << MazeHeight << "][" << setw(width) << MazeWidth << "]" << endl;
     }
 }
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
